@@ -1,7 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Background Page</title>
+  <style>
+    /* Full-page styling */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Arial', sans-serif;
+      color: white;
+    }
+
+    /* Video background styling */
+    #video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    /* Center image styling */
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .content img {
+      max-width: 70%;
+      max-height: 70%;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <!-- Video background -->
+  <video id="video-bg" autoplay muted loop>
+    <source src="videos/AdobeStock_959894450.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Central content with image -->
+  <div class="content">
+    <img src="images/bear_logo.png" alt="Conference Logo">
+  </div>
+
 </body>
 </html>
