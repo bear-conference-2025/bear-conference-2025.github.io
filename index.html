@@ -15,18 +15,28 @@
       color: white;
     }
 
-    /* Video background styling */
-    #video-bg {
+    /* Video background container */
+    .video-container {
       position: fixed;
       top: 0;
       left: 0;
-      min-width: 100%;
-      min-height: 100%;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       z-index: -1;
+    }
+
+    /* Video size adjustments */
+    #video-bg {
+      width: 90%; /* Adjust size as needed */
+      height: auto;
+      max-height: 90vh;
       object-fit: cover;
     }
 
-    /* Center image styling */
+    /* Center content styling */
     .content {
       display: flex;
       justify-content: center;
@@ -43,11 +53,13 @@
 </head>
 <body>
 
-  <!-- Video background -->
-  <video id="video-bg" autoplay muted loop>
-    <source src="videos/Bear_no_green.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <!-- Video background container -->
+  <div class="video-container">
+    <video id="video-bg" autoplay muted loop>
+      <source src="videos/Bear_no_green.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
   <!-- Central content with image -->
   <div class="content">
