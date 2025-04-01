@@ -13,16 +13,38 @@
       padding: 0;
       background-color: white;
       color: black;
+    }
+
+    /* Navbar styling */
+    .navbar {
       display: flex;
       justify-content: center;
-      align-items: center;
-      min-height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+
+    .navbar a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
     }
 
     /* Container for content */
     .container {
       max-width: 800px;
       text-align: center;
+      margin: 100px auto 20px;
+      padding: 20px;
     }
 
     h1 {
@@ -67,6 +89,15 @@
 </head>
 <body>
 
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="speakers.html">Keynote Speakers</a>
+    <a href="https://forms.office.com/e/FaXjhKxTRU">Register</a>
+    <a href="contact_us.html">Contact Us</a>
+  </div>
+
   <div class="container">
     <h1>About the 14th BEAR Conference</h1>
     <p>Discover how BEAR resources are driving innovative research focused on sustainability and efficient resource usage at this interdisciplinary event:</p>
@@ -74,15 +105,14 @@
       <li><strong>Theme:</strong> Sustainability</li>
       <li><strong>Date:</strong> 22nd May</li>
       <li><strong>Registration Deadline: 28th March</strong></li>
-      <li><strong>Location:</strong> University of Birmingham (Exact venue TBC)</li>
+      <li><strong>Location:</strong> University of Birmingham, The Alan Walters Building</li>
       <li><strong>Open to:</strong> PGRs for poster and talk submissions</li>
       <li><strong>Speakers:</strong> Keynote presentations by leading experts</li>
       <li><strong>Prizes:</strong> Awarded for best presentations</li>
-      <li><strong>Contact:</strong> <a href="mailto:bear-event@contacts.bham.ac.uk" style="color: #007ACC;">bear-event@contacts.bham.ac.uk</a></li>
+      <li><strong>Hybrid Option:</strong> Available upon request</li>
     </ul>
-
-    <a href="index.html" class="back-button">Back to Main Page</a>
   </div>
+   
 
 </body>
 </html>
