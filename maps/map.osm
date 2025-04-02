@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.0.1 (3529603 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="52.4519840" minlon="-1.9293560" maxlat="52.4525620" maxlon="-1.9288410"/>
+ <node id="476346122" visible="true" version="4" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4519813" lon="-1.9289298"/>
+ <node id="476346124" visible="true" version="4" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4518559" lon="-1.9295159"/>
+ <node id="476346128" visible="true" version="4" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4516715" lon="-1.9289911"/>
+ <node id="492014673" visible="true" version="4" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4518298" lon="-1.9289597"/>
+ <node id="1593742742" visible="true" version="3" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4516874" lon="-1.9292084"/>
+ <node id="1593742749" visible="true" version="3" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4518284" lon="-1.9291427"/>
+ <node id="1593742752" visible="true" version="2" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4518433" lon="-1.9291397"/>
+ <node id="1593742776" visible="true" version="3" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4519945" lon="-1.9291098"/>
+ <node id="3346373494" visible="true" version="4" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4518523" lon="-1.9294677">
+  <tag k="entrance" v="main"/>
+ </node>
+ <node id="3474099865" visible="true" version="4" changeset="156291177" timestamp="2024-09-06T20:16:19Z" user="phodgkin" uid="7666952" lat="52.4517051" lon="-1.9294483">
+  <tag k="flickr" v="https://www.flickr.com/photos/ell-r-brown/44135450630/"/>
+  <tag k="historic" v="memorial"/>
+  <tag k="memorial" v="plaque"/>
+  <tag k="memorial_plaque:colour" v="blue"/>
+  <tag k="name" v="Contemporary Cultural Studies"/>
+  <tag k="openplaques:id" v="7365"/>
+  <tag k="operator" v="University of Birmingham"/>
+ </node>
+ <node id="3474099868" visible="true" version="4" changeset="156291177" timestamp="2024-09-06T20:16:19Z" user="phodgkin" uid="7666952" lat="52.4517057" lon="-1.9294571">
+  <tag k="flickr" v="https://www.flickr.com/photos/ell-r-brown/44135439560/"/>
+  <tag k="historic" v="memorial"/>
+  <tag k="memorial" v="blue_plaque"/>
+  <tag k="memorial_plaque:colour" v="blue"/>
+  <tag k="name" v="Francois Lafitte"/>
+  <tag k="openplaques:id" v="7363"/>
+  <tag k="operator" v="University of Birmingham"/>
+  <tag k="subject:wikidata" v="Q113806018"/>
+  <tag k="subject:wikipedia" v="en:François Lafitte"/>
+ </node>
+ <node id="3474104709" visible="true" version="2" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4517005" lon="-1.9293862"/>
+ <node id="3474104710" visible="true" version="2" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4517067" lon="-1.9294700">
+  <tag k="entrance" v="main"/>
+ </node>
+ <node id="3474104711" visible="true" version="2" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4517121" lon="-1.9295443"/>
+ <node id="3957268140" visible="true" version="1" changeset="36709146" timestamp="2016-01-20T20:40:56Z" user="brianboru" uid="9065" lat="52.4524052" lon="-1.9276893"/>
+ <node id="4624920074" visible="true" version="1" changeset="45389391" timestamp="2017-01-23T08:19:20Z" user="brianboru" uid="9065" lat="52.4525908" lon="-1.9284966"/>
+ <node id="4734809606" visible="true" version="2" changeset="71684780" timestamp="2019-06-27T19:44:21Z" user="SK53" uid="84681" lat="52.4526407" lon="-1.9287127"/>
+ <node id="4734809607" visible="true" version="2" changeset="71684780" timestamp="2019-06-27T19:44:21Z" user="SK53" uid="84681" lat="52.4518909" lon="-1.9288754"/>
+ <node id="4734809608" visible="true" version="1" changeset="46849760" timestamp="2017-03-14T18:48:16Z" user="AerobIast" uid="4993042" lat="52.4517768" lon="-1.9280128"/>
+ <node id="4734809609" visible="true" version="1" changeset="46849760" timestamp="2017-03-14T18:48:16Z" user="AerobIast" uid="4993042" lat="52.4518068" lon="-1.9279142"/>
+ <node id="4734809610" visible="true" version="1" changeset="46849760" timestamp="2017-03-14T18:48:17Z" user="AerobIast" uid="4993042" lat="52.4523175" lon="-1.9276708"/>
+ <node id="5618418696" visible="true" version="2" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4525351" lon="-1.9293045"/>
+ <node id="5618418697" visible="true" version="2" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4524637" lon="-1.9288564"/>
+ <node id="5618418698" visible="true" version="2" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4520267" lon="-1.9289529"/>
+ <node id="5618418699" visible="true" version="2" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4520844" lon="-1.9291169"/>
+ <node id="5618418700" visible="true" version="2" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4523421" lon="-1.9291240"/>
+ <node id="5618418701" visible="true" version="2" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4523600" lon="-1.9293432"/>
+ <node id="6575404976" visible="true" version="2" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4526534" lon="-1.9287610"/>
+ <node id="6575407732" visible="true" version="2" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4518631" lon="-1.9289059"/>
+ <node id="6575407761" visible="true" version="2" changeset="71686991" timestamp="2019-06-27T21:12:34Z" user="SK53" uid="84681" lat="52.4520778" lon="-1.9288410"/>
+ <node id="6575529416" visible="true" version="1" changeset="71686991" timestamp="2019-06-27T21:12:34Z" user="SK53" uid="84681" lat="52.4526861" lon="-1.9287548"/>
+ <node id="6575529417" visible="true" version="1" changeset="71686991" timestamp="2019-06-27T21:12:34Z" user="SK53" uid="84681" lat="52.4520956" lon="-1.9288632"/>
+ <node id="6575529418" visible="true" version="1" changeset="71686991" timestamp="2019-06-27T21:12:34Z" user="SK53" uid="84681" lat="52.4521003" lon="-1.9288359"/>
+ <node id="12029600644" visible="true" version="2" changeset="156290754" timestamp="2024-09-06T20:00:10Z" user="phodgkin" uid="7666952" lat="52.4523231" lon="-1.9293859"/>
+ <node id="12029600645" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4523077" lon="-1.9291956">
+  <tag k="entrance" v="main"/>
+ </node>
+ <node id="12029600646" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4524719" lon="-1.9289563"/>
+ <node id="12029600647" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4525074" lon="-1.9289485"/>
+ <node id="12029600648" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4525134" lon="-1.9290212"/>
+ <node id="12029600649" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4524786" lon="-1.9290289"/>
+ <node id="12029600650" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4524844" lon="-1.9291000"/>
+ <node id="12029600651" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4525177" lon="-1.9290927"/>
+ <node id="12029600652" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4523162" lon="-1.9291297"/>
+ <node id="12029600653" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4523214" lon="-1.9291926"/>
+ <node id="12029600654" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4520947" lon="-1.9292427"/>
+ <node id="12029600655" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263" lat="52.4520409" lon="-1.9291265"/>
+ <way id="39729427" visible="true" version="10" changeset="148188598" timestamp="2024-03-04T03:59:48Z" user="Vubhar" uid="20977393">
+  <nd ref="3474104709"/>
+  <nd ref="1593742742"/>
+  <nd ref="476346128"/>
+  <nd ref="492014673"/>
+  <nd ref="476346122"/>
+  <nd ref="1593742776"/>
+  <nd ref="1593742752"/>
+  <nd ref="1593742749"/>
+  <nd ref="3346373494"/>
+  <nd ref="476346124"/>
+  <nd ref="3474104711"/>
+  <nd ref="3474104710"/>
+  <nd ref="3474099868"/>
+  <nd ref="3474099865"/>
+  <nd ref="3474104709"/>
+  <tag k="addr:city" v="Birmingham"/>
+  <tag k="addr:housename" v="Muirhead Tower"/>
+  <tag k="addr:postcode" v="B15 2TN"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="14"/>
+  <tag k="height" v="57"/>
+  <tag k="name" v="Muirhead Tower"/>
+  <tag k="ref" v="R.21"/>
+ </way>
+ <way id="480483069" visible="true" version="3" changeset="71686991" timestamp="2019-06-27T21:12:34Z" user="SK53" uid="84681">
+  <nd ref="4734809606"/>
+  <nd ref="6575529418"/>
+  <nd ref="6575407761"/>
+  <nd ref="4734809607"/>
+  <nd ref="4734809608"/>
+  <nd ref="4734809609"/>
+  <nd ref="4734809610"/>
+  <nd ref="3957268140"/>
+  <nd ref="4624920074"/>
+  <nd ref="4734809606"/>
+  <tag k="fixme" v="not grass between Muirhead/Walters &amp; Smith&amp;"/>
+  <tag k="landuse" v="grass"/>
+ </way>
+ <way id="588227082" visible="true" version="3" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263">
+  <nd ref="5618418696"/>
+  <nd ref="12029600651"/>
+  <nd ref="12029600650"/>
+  <nd ref="12029600649"/>
+  <nd ref="12029600648"/>
+  <nd ref="12029600647"/>
+  <nd ref="12029600646"/>
+  <nd ref="5618418697"/>
+  <nd ref="5618418698"/>
+  <nd ref="12029600655"/>
+  <nd ref="5618418699"/>
+  <nd ref="12029600654"/>
+  <nd ref="12029600645"/>
+  <nd ref="12029600653"/>
+  <nd ref="12029600652"/>
+  <nd ref="5618418700"/>
+  <nd ref="5618418701"/>
+  <nd ref="5618418696"/>
+  <tag k="building" v="university"/>
+  <tag k="height" v="11.4"/>
+  <tag k="name" v="The Alan Walters Building"/>
+  <tag k="ref" v="R29"/>
+ </way>
+ <way id="700201643" visible="true" version="1" changeset="71684780" timestamp="2019-06-27T19:44:21Z" user="SK53" uid="84681">
+  <nd ref="6575407761"/>
+  <nd ref="4734809607"/>
+  <tag k="barrier" v="retaining_wall"/>
+ </way>
+ <way id="700201656" visible="true" version="2" changeset="71686991" timestamp="2019-06-27T21:12:34Z" user="SK53" uid="84681">
+  <nd ref="6575529416"/>
+  <nd ref="6575404976"/>
+  <nd ref="6575529417"/>
+  <nd ref="6575407732"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="700218401" visible="true" version="1" changeset="71686991" timestamp="2019-06-27T21:12:34Z" user="SK53" uid="84681">
+  <nd ref="6575529417"/>
+  <nd ref="6575529418"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="1298612177" visible="true" version="1" changeset="153466931" timestamp="2024-07-02T16:58:28Z" user="Robert Whittaker" uid="84263">
+  <nd ref="12029600645"/>
+  <nd ref="12029600644"/>
+  <tag k="highway" v="footway"/>
+ </way>
+</osm>
