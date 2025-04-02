@@ -69,6 +69,22 @@
       text-align: left;
       margin-bottom: 10px;
     }
+        /* Link styling inside list items */
+    .link-style {
+      color: #007ACC;  /* Set a color for the link */
+      text-decoration: none;  /* Remove underline */
+      font-weight: bold;  /* Make it bold */
+    }
+
+    .link-style:hover {
+      color: #005F8C;  /* Change color on hover */
+      text-decoration: underline;  /* Add underline on hover */
+    }
+
+    .link-style:focus {
+      outline: none;  /* Remove focus outline */
+    }
+
 
     /* Map container styling */
     .map-container {
@@ -97,7 +113,7 @@
       <li><strong>Date:</strong> 22nd May</li>
       <li><strong>Registration Deadline: 28th March</strong></li>
       <li><strong>Open to:</strong> PGRs for poster and talk submissions</li>
-      <li><strong>Speakers:</strong> Keynote presentations by leading experts</li>
+      <li><strong>Speakers:</strong> <a href="speakers.html" class="link-style">Keynote presentations</a> by leading experts</li>
       <li><strong>Prizes:</strong> Awarded for best presentations</li>
       <li><strong>Hybrid Option:</strong> Available upon request</li>
       <li><strong>Location:</strong> University of Birmingham, The Alan Walters Building, G03 (LT1)</li>
