@@ -3,23 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coming Soon - BEAR Conference 2025</title>
+  <title>Schedule - BEAR Conference 2025</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
-    /* Page styling */
     body {
       font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
       background-color: white;
       color: black;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
     }
 
-    /* Navbar styling */
     .navbar {
       display: flex;
       justify-content: center;
@@ -43,26 +37,59 @@
       border-radius: 5px;
     }
 
-    /* Container for content */
     .container {
-      max-width: 800px;
-      text-align: center;
-      padding: 80px 20px 20px;
-    }
-
-    .content-box {
-      padding: 20px;
-      border-radius: 10px;
+      max-width: 1000px;
+      margin: 100px auto 40px;
+      padding: 0 20px;
     }
 
     h1 {
+      text-align: center;
       color: #007ACC;
       font-size: 2.5em;
+      margin-bottom: 30px;
     }
 
-    p {
-      font-size: 1.5em;
-      line-height: 1.6;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 16px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .highlight {
+      background-color: #f9ccf0;
+      font-weight: bold;
+    }
+
+    .keynote {
+      background-color: #d5f4e6;
+    }
+
+    @media screen and (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      th, td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+      }
+      th::before, td::before {
+        position: absolute;
+        left: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+      }
     }
   </style>
 </head>
@@ -78,10 +105,41 @@
   </div>
 
   <div class="container">
-    <div class="content-box">
-      <h1>Coming Soon</h1>
-      <p>Stay tuned! More details about the BEAR Conference 2025 will be available soon.</p>
-    </div>
+    <h1>Conference Schedule</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Start Time</th>
+          <th>Duration</th>
+          <th>Event</th>
+          <th>Title/Topic</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="highlight"><td>10:00</td><td>00:30</td><td>Registration & Refreshments</td><td></td></tr>
+        <tr><td>10:30</td><td>00:10</td><td>Welcome</td><td>Introduction by Dietmar Heinke - Chair of the BEAR User Group</td></tr>
+        <tr class="keynote"><td>10:40</td><td>00:45</td><td>Xilin Xia</td><td><strong>Keynote:</strong> Development and application of computational models for natural hazards and climate risk assessment</td></tr>
+        <tr><td>11:25</td><td>00:20</td><td>Ben Jenkins (ONLINE)</td><td>Outcomes and Learnings from 4 Years of Research on DEM Calibration</td></tr>
+        <tr><td>11:45</td><td>00:20</td><td>Chandan Bose</td><td>Unleashing GPU-Accelerated Computing: Aerodynamics of Butterfly Swarms</td></tr>
+        <tr class="highlight"><td>12:05</td><td>00:15</td><td>Break</td><td></td></tr>
+        <tr><td>12:20</td><td>00:20</td><td>Son Nguyen</td><td>Don’t Cry Over Spilled Oil: Stock Market Punishment for Environmental Missteps</td></tr>
+        <tr><td>12:40</td><td>00:20</td><td>Hibah Saddal</td><td>Modelling Bio-Inspired Fluid-Structure Interaction Problems Using Open-Source Codes</td></tr>
+        <tr class="highlight"><td>13:00</td><td>01:00</td><td>Lunch + Posters</td><td></td></tr>
+        <tr class="keynote"><td>14:00</td><td>00:45</td><td>Loïc Lannelongue</td><td><strong>Keynote:</strong> Green Algorithms, Green DiSC and GREENER principles: making computational science more environmentally sustainable</td></tr>
+        <tr><td>14:45</td><td>00:20</td><td>Yibo Zhang</td><td>When She Holds the Purse Strings: Intrahousehold Female Status and Household Resilience under Natural Disaster Exposure</td></tr>
+        <tr class="highlight"><td>15:05</td><td>00:15</td><td>Break</td><td></td></tr>
+        <tr><td>15:20</td><td>00:05</td><td>Liu Tong</td><td>Structural monetary policy and firms’ green innovation</td></tr>
+        <tr><td>15:25</td><td>00:05</td><td>Nina Adler</td><td>Effect of laser pulsing and interlaying machining on residual stresses in laser direct energy deposition</td></tr>
+        <tr><td>15:30</td><td>00:05</td><td>Lamya Majeed</td><td>Induced Resistance: Programming Tomatoes for Resilience</td></tr>
+        <tr><td>15:35</td><td>00:05</td><td>Zhenyi Zhai</td><td>The impact of airport expansion on local housing prices: evidence from the UK</td></tr>
+        <tr><td>15:40</td><td>00:05</td><td>Zhuangchen Wu</td><td>Ratings, popularity, and price setting</td></tr>
+        <tr><td>15:45</td><td>00:05</td><td>Sophie Feltz</td><td>Temporal clustering of severe European winter windstorms on intra-seasonal timescales</td></tr>
+        <tr><td>15:50</td><td>00:05</td><td>Haonian Tian</td><td>Speed Limits, Noise Abatement, and House Prices: Evidence from a Quasi-Natural Experiment in Wales</td></tr>
+        <tr><td>15:55</td><td>00:05</td><td>Mohammad B M A J Aldoub</td><td>Information shock and belief heterogeneity in the peer-to-peer secondary market</td></tr>
+        <tr class="highlight"><td>16:00</td><td>00:10</td><td>Break</td><td></td></tr>
+        <tr><td>16:10</td><td></td><td>Prizes and Wrap-up</td><td></td></tr>
+      </tbody>
+    </table>
   </div>
 
 </body>
